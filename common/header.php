@@ -27,9 +27,9 @@
 
 <?php echo body_tag(array('id' => @$bodyid, 'class' => @$bodyclass)); ?>
     <?php plugin_body(); ?>
-    <div id="wrap">
-
-        <div id="header">
+    
+	<div id="header-wrapper">
+        <div class="header">
             <?php plugin_page_header(); ?>
 
             <div id="site-title"><?php echo link_to_home_page(custom_display_logo()); ?></div>
@@ -51,7 +51,9 @@
 					);
 					?>
 	            </ul>
-	        </div><!-- end primary-nav -->
+	        </div>
+		</div>
+	<!-- end primary-nav -->
 	        <?php echo custom_header_image(); ?>
 
 		</div><!-- end header -->
