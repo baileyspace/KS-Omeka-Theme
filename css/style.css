@@ -266,7 +266,7 @@ h6 {}
 	
 	#site-title {
 		font-family: 'Oswald', helvetica, arial, sans-serif;
-		font-size: 2em;
+		font-size: 2.5em;
 		float: left;
 		margin-top: 35px;	
 	}
@@ -324,7 +324,7 @@ h6 {}
     #search-container {
 		float: right;
 		margin: 0;
-		padding: 42px 0;		
+		padding: 42px 0 30px;		
 	}
 	
 	#search-container a {
@@ -406,8 +406,15 @@ h6 {}
 			background-color: transparent;
 			width: 85%;
 			margin: 0 auto;
+			border-bottom: 1px solid #EEE;
 		}
-        #secondary {}
+        #secondary {
+			box-shadow: none;
+			padding: 0 0;
+			background-color: transparent;
+			width: 85%;
+			margin: 0 auto;
+		}
 
     /* General */
     #featured-item {}

@@ -21,7 +21,7 @@
 
 </div><!-- end primary -->
 
-<div id="secondary">
+<div id="secondary" class="clear">
 
     <div id="recent-items">
         <h2><?php echo __('Recently Added Items'); ?></h2>
