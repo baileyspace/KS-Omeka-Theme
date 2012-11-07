@@ -1,6 +1,6 @@
 <?php head(array('bodyid'=>'home')); ?>
 
-<div id="primary">
+<div id="primary" class="clear">
 
     <?php if (get_theme_option('Homepage Text')): ?>
     <p><?php echo get_theme_option('Homepage Text'); ?></p>

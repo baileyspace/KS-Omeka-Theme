@@ -29,7 +29,7 @@
     <?php plugin_body(); ?>
     
 	<div id="header-wrapper">
-        <div class="header">
+        <div class="header clear">
             <?php plugin_page_header(); ?>
 
             <div id="site-title"><?php echo link_to_home_page(custom_display_logo()); ?></div>
@@ -59,5 +59,5 @@
 		</div><!-- end header -->
 
 
-        <div id="content">
+        <div id="content" class="clear">
             <?php plugin_page_content(); ?>

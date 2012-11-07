@@ -35,6 +35,10 @@ body {
 	padding:0px;
 	text-align:center;
 }
+
+div {
+	display: block;
+}
 ol, ul {
     list-style: none;
 }
@@ -121,6 +125,12 @@ h6 {}
 	}
 
     .view-items-link {}
+	
+	.clear::after {
+		clear: both;
+		content: "";
+		display: block;
+	}
 
     /* -- Body Classes -- */
     .browse {}
@@ -251,7 +261,7 @@ h6 {}
 		padding: 0;
 		margin: 0 auto;
 		position: relative;
-		border-bottom: none;
+		border-bottom: 2px solid #EEE;
 	}
 	
 	#site-title {
@@ -359,6 +369,7 @@ h6 {}
 		float: left;
 		width: 69%;
 		padding: 20px 0 45px 50px;
+		text-align: left;
 	}
 	
 	#feature-text p {
@@ -374,8 +385,10 @@ h6 {}
 	}
 	
 	.feature-content {
-		float: left;
 		width: 100%;
+		margin-right: 0;
+		float: left;
+		position: relative;
 		margin: 50px 0;		
 	}
 
@@ -385,12 +398,14 @@ h6 {}
 
     /* Structure */
     #content {
+		width: 100%;
 		}
         #primary {
 			box-shadow: none;
-			border-top: 2px solid #EEE;
 			padding: 0 0;
 			background-color: transparent;
+			width: 85%;
+			margin: 0 auto;
 		}
         #secondary {}
 
