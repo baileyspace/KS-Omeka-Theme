@@ -22,6 +22,17 @@
 
     <!-- JavaScripts -->
     <?php display_js(); ?>
+
+	<!-- Slab Text -->
+	
+	<?php if ($bodyclass=='browse'): ?>
+	<script src="../js/slabText-master/js/jquery.slabtext.js" type="text/javascript" charset="utf-8"></script>
+	<script>
+	example javascript
+	</script>
+	<?php endif; ?>
+	
+	<!-- End Slab Text -->
 	
 </head>
 
