@@ -26,9 +26,10 @@
 	<!-- Slab Text -->
 	
 	<?php if ($bodyclass=='browse'): ?>
-	<script src="../js/slabText-master/js/jquery.slabtext.js" type="text/javascript" charset="utf-8"></script>
+	queue_css('slabtext.css');
+	queue_js('jquery.slabtext.js', $dir = 'js');
 	<script>
-	example javascript
+	
 	</script>
 	<?php endif; ?>
 	
@@ -42,7 +43,6 @@
 	<div id="header-wrapper">
         <div class="header clear">
             <?php plugin_page_header(); ?>
-
             <div id="site-title"><?php echo link_to_home_page(custom_display_logo()); ?></div>
 
 			<div id="search-container">
